@@ -1,10 +1,13 @@
 //var sunCenterY = 
+
 var sunCenterX = 450;
 var sunCenterY = 250;
 var angle1 = 0;
 var angle2 = 0;
 var angle3 = 0;
-function setup() { "use strict";
+
+
+function setup() { 
   var canvas = document.getElementById('myCanvas');
   var context = canvas.getContext('2d');
   var m4 = twgl.m4;
@@ -150,7 +153,4 @@ function setup() { "use strict";
 
 }
 
-window.onload = setup;
-
-//document.write("yo");
 
